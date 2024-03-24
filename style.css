@@ -193,15 +193,19 @@ video{
     align-items: center;
 }
 @media screen and (max-width: 900px) {
+    video{
+        width: 100%;
+    }
     .contenu-video{
         display: flex;
         justify-content: center;
-        margin-top: -770px;
+        flex-direction: column;
+        margin-top: -550px;
         margin-left: 200px;
        }
        .bas{
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
     }
     .disne{
